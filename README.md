@@ -1,22 +1,17 @@
-# LAB - Class xx
+# LAB - Class 02
 
-## Project: Project Name Here
+## Project: Math Series
 
-## Author: Student/Group Name
+## Author: Emam Al Mounqer
 
-Links and Resources
-back-end server url (when applicable)
-front-end application (when applicable)
-Setup
-.env requirements (where applicable)
-i.e.
+## Setup
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
-Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+```bash
+pip install -r requirements.txt
+```
+
+## Tests
+
+```bash
+`pytest`
+```
