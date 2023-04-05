@@ -11,3 +11,10 @@ def fibonacci(n: int) -> int:
     if n == 0 or n == 1:
         return n
     return fibonacci(n-1) + fibonacci(n-2)
+
+
+def lucas(n: int):
+    if n == 0:
+        return 2
+    if n == 1:
+        return 1

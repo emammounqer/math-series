@@ -1,5 +1,5 @@
 import pytest
-from series.series import fibonacci
+from series.series import fibonacci, lucas
 
 
 def test_zero():
@@ -8,25 +8,37 @@ def test_zero():
     assert actual == expected
 
 
-def test_one():
+def test_fibonacci_one():
     actual = fibonacci(1)
     expected = 1
     assert actual == expected
 
 
-def test_two():
+def test_fibonacci_two():
     actual = fibonacci(2)
     expected = 1
     assert actual == expected
 
 
-def test_three():
+def test_fibonacci_three():
     actual = fibonacci(3)
     expected = 2
     assert actual == expected
 
 
-def test_six():
+def test_fibonacci_six():
     actual = fibonacci(6)
     expected = 8
+    assert actual == expected
+
+
+def test_lucas_zero():
+    actual = lucas(0)
+    expected = 2
+    assert actual == expected
+
+
+def test_lucas_one():
+    actual = lucas(1)
+    expected = 1
     assert actual == expected
