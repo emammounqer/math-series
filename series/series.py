@@ -13,7 +13,16 @@ def fibonacci(n: int) -> int:
     return fibonacci(n-1) + fibonacci(n-2)
 
 
-def lucas(n: int):
+def lucas(n: int) -> int:
+    """
+    Return the nth number in the lucas sequence.
+
+    Args:
+        n (int): The index of the number in the sequence.
+
+    Returns:
+        int: The nth number in the lucas sequence.
+    """
     if n == 0:
         return 2
     if n == 1:
